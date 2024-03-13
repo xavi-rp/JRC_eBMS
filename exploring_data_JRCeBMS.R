@@ -10,7 +10,7 @@ if(Sys.info()[4] == "D01RI1700308") {
     dir.create("/eos/jeodpp/home/users/rotllxa/JRC_eBMS/")
   wd <- "/eos/jeodpp/home/users/rotllxa/JRC_eBMS/"
 }else{
-  wd <- "C:/Users/rotllxa/JRC_eBMS/"
+  wd <- "/Users/xavi_rp/Documents/FFGRCC_laptop/JRC_eBMS_data/"
 }
 
 setwd(wd)
